@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: '&lt;code&gt;&#x27;10050&#x27;&lt;/code&gt;'
+  - text: '&lt;code&gt;&#x27;5050&#x27;&lt;/code&gt;'
+  - text: '&lt;code&gt;error&lt;/code&gt;'
+  - text: '&lt;code&gt;100&lt;/code&gt;'
+  - text: '&lt;code&gt;&#x27;10000&#x27;&lt;/code&gt;'
+files:
+  - name: main.js
+    visible: true
+    text: |+
+      // You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/31542#comment
+status: Solved
+record: -1
+custom_name: Deciphering JavaScript's Arithmetic Magic!
+local_check: false

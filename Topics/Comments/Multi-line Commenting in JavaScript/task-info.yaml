@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: <pre><code class="language-js">/* This is a comment\n This is second line
+      of comment */</code></pre>
+  - text: <pre><code class="language-js">// This is a comment\n//This is second line
+      of comment</code></pre>
+  - text: <pre><code class="language-js"># This is a comment\n# This is second line
+      of comment</code></pre>
+  - text: <pre><code class="language-js">&lt;!-- This is a comment\n This is second
+      line of comment--&gt;</code></pre>
+files:
+  - name: main.js
+    visible: true
+    text: |+
+      // You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/30672#comment
+status: Solved
+record: -1
+local_check: false

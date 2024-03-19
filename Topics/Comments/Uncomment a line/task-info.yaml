@@ -1,0 +1,15 @@
+type: code
+files:
+  - name: main.js
+    visible: true
+    text: "console.log(\"one\");\n// console.log(\"One\");\n/* console.log(\"two\");\n\
+    console.log(\"two.\");\nconsole.log(\"three\"); \n//console.log(\"four\");\nconsole.log(\"\
+    Four!\");*/\nconsole.log(\"4\");"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8175#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 19 Mar 2024 05:21:16 UTC"
+record: -1
+submission_language: javascript

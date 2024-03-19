@@ -1,0 +1,30 @@
+type: code
+files:
+  - name: main.js
+    visible: true
+    text: |-
+      const readline = require('readline');
+      
+      const rl = readline.createInterface({
+          input: process.stdin,
+          output: process.stdout
+      });
+      
+      // Creating the function that calculates the expression
+      function calculateExpression(x) {
+          // TODO: Write the arithmetic expression here
+      }
+      
+      // Reading the input from the user
+      rl.on('line', (input) => {
+          const x = parseFloat(input);
+          console.log(calculateExpression(x));
+      });
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/44063#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 19 Mar 2024 06:05:14 UTC"
+record: -1
+submission_language: javascript
